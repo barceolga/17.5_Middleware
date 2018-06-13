@@ -18,7 +18,7 @@ app.get('/store', function(req, res) {
 });;
 
 app.get('/warehouse', function(req, res) {
-  res.send("This is a warehouse");
+  res.send("This is a warehouse.");
 });
 
 app.listen(3000);
